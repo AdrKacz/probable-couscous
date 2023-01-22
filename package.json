@@ -1,0 +1,25 @@
+{
+  "name": "find-odds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --fix"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "AdrKacz",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
